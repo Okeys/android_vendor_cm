@@ -75,10 +75,6 @@ endif
 PRODUCT_COPY_FILES += 
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
     
-# Adaway
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/Adaway/Adaway.apk:system/app/Adaway/Adaway.apk
-
 # NexusLauncher
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
