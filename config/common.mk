@@ -160,6 +160,7 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     WallpaperPicker \
     WeatherProvider 
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
@@ -248,10 +249,6 @@ PRODUCT_BOOT_JARS += \
 # OMS MASQUERADE
 PRODUCT_PACKAGES += \
     masquerade
-
-# OMS Verified
-PRODUCT_PROPERTY_OVERRIDES := \
-    ro.substratum.verified=true
 
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
