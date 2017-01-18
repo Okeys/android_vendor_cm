@@ -2,10 +2,6 @@ PRODUCT_BRAND ?= LineageOS
 
 TARGET_USE_SDCLANG := true
 
-WITH_DEXPREOPT := true
-
-PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/bootanimation.zip
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -148,13 +144,16 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMFileManager \
     CMSettingsProvider \
+    CMUpdater \
     CMWallpapers \
     CyanogenSetupWizard \
+    Eleven \
     ExactCalculator \
     LiveLockScreenService \
     LockClock \
     Screencast \
     SoundRecorder \
+    Trebuchet \
     WallpaperPicker \
     WeatherProvider 
 
